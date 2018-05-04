@@ -1,0 +1,22 @@
+{
+  "generator-18f": {
+    "projectFullName": "goodtables-gov",
+    "languages": [
+      "Python"
+    ],
+    "frontendDeps": false,
+    "repoName": "goodtables-gov",
+    "primaryLanguage": "Python",
+    "runCommand": "python api.py",
+    "description": "Validates tabular data ",
+    "impact": "@TODO",
+    "stage": "discovery",
+    "testable": true,
+    "type": "app",
+    "ownerType": "project",
+    "partner": "18F",
+    "contactName": "christopher.goranson@gsa.gov",
+    "contactEmail": "christopher.goranson@gsa.gov",
+    "parent": "@TODO"
+  }
+}

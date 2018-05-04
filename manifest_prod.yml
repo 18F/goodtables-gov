@@ -1,0 +1,9 @@
+inherit: manifest_base.yml
+host: goodtables-gov
+instances: 2
+applications:
+  env:
+    - NEW_RELIC_APP_NAME: goodtables-gov (prod)
+      NEW_RELIC_CONFIG_FILE: newrelic.ini
+      NEW_RELIC_ENV: prod
+      NEW_RELIC_LOG: stdout

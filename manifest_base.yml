@@ -1,0 +1,5 @@
+---
+stack: cflinuxfs2
+buildpack: python_buildpack
+applications:
+- name: web
