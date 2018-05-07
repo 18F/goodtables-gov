@@ -1,5 +1,24 @@
 # goodtables-gov
 
+A RESTful web service for validating files of tabular data.
+
+Given a data file, applies a
+[Goodtables table schema](https://github.com/frictionlessdata/goodtables-py)
+and returns the validation results in JSON form.
+
+Using no validator (applies the GoodTables default validator only)
+
+    curl -F 'file=@files/budget.csv' https://goodtables-gov-dev.app.cloud.gov
+
+Using validator defined in a local file
+
+    curl -F 'schema=@files/table_schema.json' -F 'file=@files/budget.csv'   https://goodtables-gov-dev.app.cloud.gov
+
+Using validator defined at a URL
+
+    curl -F 'file=@files/budget.csv' -F 'schema_url=https://raw.githubusercontent.com/18F/goodtables-gov/master/files//table_schema.json' https://goodtables-gov-dev.app.cloud.gov
+
+
 ## Contributing
 
 See [CONTRIBUTING](CONTRIBUTING.md) for additional information.
