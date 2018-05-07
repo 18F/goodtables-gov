@@ -18,6 +18,11 @@ Using validator defined at a URL
 
     curl -F 'file=@files/budget.csv' -F 'schema_url=https://raw.githubusercontent.com/18F/goodtables-gov/master/files//table_schema.json' https://goodtables-gov-dev.app.cloud.gov
 
+For readability, you may want to pipe the output through a formatter, like
+
+    curl -F 'file=@files/budget.csv' https://goodtables-gov-dev.app.cloud.gov | python -m json.tool
+
+    curl -F 'file=@files/budget.csv' https://goodtables-gov-dev.app.cloud.gov | jq
 
 ## Contributing
 
