@@ -1,3 +1,9 @@
+[![CircleCI](https://circleci.com/gh/18F/goodtables-gov.svg?style=svg)](https://circleci.com/gh/18F/goodtables-gov)
+[![Code Climate](https://codeclimate.com/github/18F/goodtables-gov/badges/gpa.svg)](https://codeclimate.com/github/18F/goodtables-gov)
+[![Test Coverage](https://codeclimate.com/github/18F/goodtables-gov/badges/coverage.svg)](https://codeclimate.com/github/18F/goodtables-gov/coverage)
+[![Dependency Status](https://gemnasium.com/badges/github.com/18F/goodtables-gov.svg)](https://gemnasium.com/github.com/18F/goodtables-gov)
+
+
 # goodtables-gov
 
 A RESTful web service for validating files of tabular data.
