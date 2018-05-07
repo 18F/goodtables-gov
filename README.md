@@ -1,6 +1,6 @@
 [![CircleCI](https://circleci.com/gh/18F/goodtables-gov.svg?style=svg)](https://circleci.com/gh/18F/goodtables-gov)
 [![Code Climate](https://codeclimate.com/github/18F/goodtables-gov/badges/gpa.svg)](https://codeclimate.com/github/18F/goodtables-gov)
-[![Test Coverage](https://codeclimate.com/github/18F/goodtables-gov/badges/coverage.svg)](https://codeclimate.com/github/18F/goodtables-gov/coverage)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/64c844cfb81719648d70/test_coverage)](https://codeclimate.com/github/18F/goodtables-gov/test_coverage)
 [![Dependency Status](https://gemnasium.com/badges/github.com/18F/goodtables-gov.svg)](https://gemnasium.com/github.com/18F/goodtables-gov)
 
 
